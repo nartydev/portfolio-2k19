@@ -1,0 +1,83 @@
+[
+    {
+        "id": 0,
+        "title": "May I Leave",
+        "slug": "mayileave",
+        "year": "2018",
+        "category": "Experience website",
+        "type": "School project",
+        "link": "https://brexit-ornot.herokuapp.com/",
+        "task": [
+            { "message": "Front-end development"},
+            { "message": "Back-end development" }
+        ],
+        "helpby": [
+            { "author": "Marin d'Assignies", "role": "Project manager"},
+            { "author": "Thomas Lacroix", "role": "Front-end development"}
+        ],
+        "url_img": "../assets/mayileave1.jpg",
+        "description": "Want to know if it is better for your country to leave the European Union? This is an immersive experience to understand and adapt the BREXIT issues to your country. <br/> On 23 June 2016, the citizens of the United Kingdom voted in favor of the yes (51,9%) so that their country definitively leaves the European Union. This vote will have a significant economic impact on the future life of citizens. <br/><br/> Many issues remain unknown to most Europeans. Find out if it's better for your country to stay in or out of the European Union by answering a series of questions, we will help you determine what you really think about BREXIT.",
+        "bg": "#001A4D",
+        "color": "#fff"
+    },
+    {
+        "id": 1,
+        "title": "Locky",
+        "slug": "locky",
+        "year": "2018",
+        "category": "Landing page",
+        "type": "School project",
+        "link": "http://narty.fr/demo/locky/",
+        "task": [
+            { "message": "Front-end development"},
+            { "message": "Designer" }
+        ],
+        "url_img": "../assets/locky.jpg",
+        "description": "Locky is the right balance between smart locks and key locks that combine the best features of both. You can check the status of the door anywhere and at any time. It is the simplest home security system in the world.",
+        "bg": "#000",
+        "color": "#fff"
+    },
+    {
+        "id": 2,
+        "title": "GoodVie",
+        "slug": "goodvie",
+        "year": "2019",
+        "category": "Showcase site",
+        "type": "Freelance",
+        "link": "https://good-vie.com/",
+        "task": [
+            { "message": "Front-end development"},
+            { "message": "Back-end development"},
+            { "message": "Designer" }
+        ],
+        "url_img": "../assets/goodvie.jpg",
+        "description": "Good vie is the first edible managerial tool. Our mission: to promote the link between nutrition, health and performance within the framework of workplace wellness policy. What a beautiful program! But how are we going to do that? Simply by revisiting and delivering an extraordinary breakfast to companies. Out of the ordinary, you say? Yes, as much for their nutritional qualities as for their real impact on health, our breakfasts are true elixirs of youth and well-being. We revisit recipes that have been forgotten for decades, such as Budwig cream and probiotic drinks, using local, organic or sustainable local products.",
+        "bg": "#f08b9f",
+        "color": "#fff"
+    },
+    {
+        "id": 3,
+        "title": "Teaser",
+        "slug": "teaser",
+        "year": "2019",
+        "link": "",
+        "category": "Mobile app",
+        "type": "Personnal project",
+        "task": [
+            { "message": "Founder"},
+            { "message": "Developer"},
+            { "message": "Designer" }
+        ],
+        "helpby": [
+            { "author": "Aymeric Mohen", "role": "Lead developer"},
+            { "author": "Damien Smagghe", "role": "Developer"},
+            { "author": "Constance Devanne", "role": "Illustrator & Motion designer"},
+            { "author": "Alexandre Chabeau", "role": "Illustrator"},
+            { "author": "Thomas Poirier", "role": "Marketing manager"}
+        ],
+        "url_img": "./assets/teaser.jpg",
+        "description": "Teaser is a mobile drinking game application ideal for parties with friends. Coming soon on iOS and Android. The application is based on a wheel with themes that players must rotate to perform actions. Each player is assigned an avatar, which gives him a real identity. These are displayed in a ranking that counts the sips drunk. The game includes prevention: every 10 sips drunk, a message is displayed (can't drive, may do unfortunate things, can't get out...). The main purpose is to entertain the players and create interaction between them.",
+        "bg": "#29235c",
+        "color": "#000"
+    }
+]
