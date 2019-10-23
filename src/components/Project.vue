@@ -5,12 +5,16 @@
 <template>
     <div class="content-project" :class="project.id == idFirst ? 'active' : ''">
         <div class="min-content">
+          <div class="overflow">
             <transition appear name="fade">
                 <div v-show="idFirst === project.id" class="title">{{ project.title }}</div>
             </transition>
+          </div>
+          <div class="overflow-desc">
             <transition appear name="desc-fade">
                 <div v-show="idFirst === project.id" class="description">{{ project.category }}</div>
             </transition>
+          </div>
     
                 <div class="content-view" ref="viewContent" @mouseover="callback('enter')" @mouseleave="callback('leave')" v-show="idFirst === project.id">
                         <router-link class="view" :to="project.slug">
@@ -139,6 +143,12 @@
 .round-fade-leave-active 
     transition: all .5s
 
+.overflow
+  overflow:hidden
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 26%;
 
 .round-fade-enter 
     opacity:0
@@ -164,7 +174,7 @@
 
 
 .desc-fade-enter 
-    transform:translateX(100%) rotateZ(15deg)
+    transform:translateY(200%) rotateZ(-15deg)
     opacity:0
 
 .desc-fade-leave-to 
@@ -247,13 +257,12 @@
 
 .content-view 
     height:120px
-    width:100%
+    widtho:90%
     margin-top:300px
     display:flex
     justify-content:center
     align-items:center
-    position:relative;
-
+    position:relative
 
 
 .title
@@ -261,9 +270,14 @@
     font-size:44px
     font-family:"ZCOOL XiaoWei"
     letter-spacing:1px
-    position:absolute
-    left: 0
-    top: 26%
+
+.overflow-desc
+    position: absolute;
+    left: 0;
+    top: 32%;
+    overflow:hidden
+    margin-bottom: 200px
+
 
 .min-content 
     width:40%
@@ -282,10 +296,6 @@
     font-family: "Circular Regular"
     position: relative
     font-size: 18px
-    margin-bottom: 200px
-    position:absolute
-    left: 0;
-    top: 32%
 
     &:before 
         content:''
@@ -348,8 +358,11 @@
         font-size:25px
         
     .content-project
-        width:65%
+        width:78%
         height:65vh
+
+    .year-project
+      display:none
 
     .min-content
         width:100%
@@ -357,5 +370,6 @@
     .content-view
         position: absolute
         bottom: -39%
+        left: 32%
 
 </style>

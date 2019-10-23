@@ -10,6 +10,7 @@
   "dependencies": {
     "cardinal-spline-js": "^2.3.10",
     "gsap": "^2.1.2",
+    "hermite-resize": "git+https://github.com/viliusle/Hermite-resize.git",
     "normalize-wheel": "^1.0.1",
     "react-pose": "^4.0.8",
     "vue": "^2.6.6",
